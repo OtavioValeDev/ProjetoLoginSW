@@ -13,7 +13,7 @@ session_start();
 <body>
     Bem Vindo, <?php echo $_SESSION['user']; ?>!
     <br>
-    <a href="entrada.php"><button>Saia e volte ao Login</button> </a>
+    <a href="login.php"><button>Saia e volte ao Login</button> </a>
 </body>
 
 </html>
